@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
-
-
-  
+  <NuxtLayout><NuxtPage /></NuxtLayout>
 </template>
+
+<style>
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+</style>
