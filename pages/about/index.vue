@@ -1,10 +1,11 @@
-<!-- Assuming the user is requesting a simple Vue.js component -->
 <template>
-  <div>
-    <!-- Your component content here -->
-  </div>
+  <div>sdfdfddddddddddddddddddddddsdf</div>
 </template>
 
-<script>
-
-</script>
+<style scoped>
+div {
+  width: 100px;
+  height: 1500px;
+  background-color: red;
+}
+</style>

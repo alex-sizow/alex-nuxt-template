@@ -1,13 +1,10 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import Header from '@/components/Header/index.vue';
+</script>
 
 <template>
-  <div>
-    <header>
-      <NuxtLink to="/">Main</NuxtLink
-      ><NuxtLink to="/about">About</NuxtLink>
-    </header>
-    <slot />sdfsdzf
-  </div>
+  <Header> </Header>
+  <NuxtPage />
 </template>
 
-<style></style>
+<style scoped></style>
