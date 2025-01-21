@@ -5,7 +5,6 @@
 
 body {
   scrollbar-gutter: stable;
-  overflow: hidden; /* Hide the default scrollbar for the body */
 }
 
 /* WebKit-based browsers (Chrome, Safari) */
@@ -37,9 +36,6 @@ body {
   scrollbar-color: yellow transparent; /* Color for the thumb and transparent background for the track */
 }
 
-/* Example of an element with custom scrollbar */
-.scrollable-element {
-  height: 300px;
-  overflow-y: auto; /* Enable scrolling for this element */
-  padding-right: 10px; /* Optional: Add padding to account for the scrollbar width */
+body {
+  background-image: url(@/assets/background.svg);
 }
